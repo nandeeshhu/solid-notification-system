@@ -99,4 +99,5 @@ int main() {
     Notifier* notifier4 = new WhatsappNotifier();
     notifier4->send("Welcome to our app");
     delete notifier4;
+    return 0;
 }
